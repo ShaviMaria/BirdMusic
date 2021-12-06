@@ -1,6 +1,7 @@
 :root {
     --principal: #E53935;
     --secundario: #D32F2F;
+    --terceario: #808080;
     --degradadoDos: #982690;
     --degradadoUno: #E84A4A;
     --footer: #878787;
@@ -65,7 +66,15 @@ body {
 }
 
 .search {
-    Error en código;
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+    background-color: var(--terceario);
+}
+
+.bar-search {
+    max-width: 40rem;
+    max-height: 3rem;
 }
 
 /*footer*/
