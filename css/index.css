@@ -3,10 +3,10 @@
     --secundario: #D32F2F;
     --degradadoDos: #982690;
     --degradadoUno: #E84A4A;
+    --footer: #878787;
 }
 
 html {
-    margin-top: 0rem;
     font-size: 62.5%;
     font-family: 'Libre Baskerville', serif;
     background: linear-gradient(to left, var(--degradadoUno), var(--degradadoDos));
@@ -14,6 +14,7 @@ html {
 
 body {
     font-size: 16px;
+    margin: 0 0;
 }
 
 .header {
@@ -53,6 +54,24 @@ body {
     padding: 1rem 2rem;
 }
 
+.nav-inicio{
+    background-color:#A92220;
+    border: #878787;
+    border-style: groove;
+}
+
 .nav a:hover {
     background-color: var(--secundario);
+}
+
+/*footer*/
+
+.footer {
+    background-color: var(--footer);
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 2rem;
 }
