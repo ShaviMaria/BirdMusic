@@ -1,0 +1,58 @@
+:root {
+    --principal: #E53935;
+    --secundario: #D32F2F;
+    --degradadoDos: #982690;
+    --degradadoUno: #E84A4A;
+}
+
+html {
+    margin-top: 0rem;
+    font-size: 62.5%;
+    font-family: 'Libre Baskerville', serif;
+    background: linear-gradient(to left, var(--degradadoUno), var(--degradadoDos));
+}
+
+body {
+    font-size: 16px;
+}
+
+.header {
+    background-image: url(../pictures/header-fondo.jpeg);
+}
+
+.bk-header {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.figure-logo {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.figure-logo {
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
+.nav-bk {
+    background-color: var(--principal);
+}
+
+.nav {
+    max-width: 100rem;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.nav a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color:black;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+}
+
+.nav a:hover {
+    background-color: var(--secundario);
+}
