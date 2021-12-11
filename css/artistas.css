@@ -1,0 +1,53 @@
+:root {
+    --principal: #E53935;
+    --secundario: #D32F2F;
+    --terceario: #808080;
+    --degradadoDos: #982690;
+    --degradadoUno : #E84A4A;
+    --footer: #878787;
+}
+
+.title-artits   {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+
+.lista_artistas img {
+    max-width: 20rem;
+    border-radius: 1rem;
+}
+
+.lista_artistas {
+    list-style:none
+
+}
+
+.texto_imagen {
+    display: flex;
+    text-align: center;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: double;
+}
+
+.texto_imagen section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto_imagen section h2{
+    margin-bottom: 1rem;
+    color:yellowgreen;
+    font-size: 3rem;
+
+}
+
+.texto_imagen section p{
+    margin-top: 0;
+    color: white;
+}
+
